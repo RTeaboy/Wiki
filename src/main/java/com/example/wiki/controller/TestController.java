@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 public class TestController {
-    @Value("${test.hello:Hello}")
+    @Value("${test.hello}")
     private String testHello;
     @RequestMapping("/hello")
     public String hello(){
