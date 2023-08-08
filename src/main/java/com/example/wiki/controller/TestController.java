@@ -1,15 +1,20 @@
 package com.example.wiki.controller;
 
+import com.example.wiki.domain.Test;
+import com.example.wiki.service.TestService;
+import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import java.util.Map;
+import java.util.List;
 
 @RestController
 public class TestController {
     @Value("${test.hello}")
     private String testHello;
+    @Resource
+    private TestService testService;
     @RequestMapping("/hello")
     public String hello(){
 
@@ -20,4 +25,9 @@ public class TestController {
 
             return "Hello World! Post" + name;
         }
+    @GetMapping("/test/list")
+    public List<Test> list(){
+        List<Test> list = testService.list();
+        return list;
+    }
 }
