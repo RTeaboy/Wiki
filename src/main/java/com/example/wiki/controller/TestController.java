@@ -27,7 +27,6 @@ public class TestController {
         }
     @GetMapping("/test/list")
     public List<Test> list(){
-        List<Test> list = testService.list();
-        return list;
+        return testService.list();
     }
 }
