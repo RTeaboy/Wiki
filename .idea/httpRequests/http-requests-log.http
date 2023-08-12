@@ -3,6 +3,15 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
+<> 2023-08-12T081914.200.json
+
+###
+
+GET http://localhost:8880/demo/list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
 <> 2023-08-11T164605.200.json
 
 ###
@@ -480,15 +489,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 name=TEST
 
 <> 2023-08-08T092717-1.200.txt
-
-###
-
-GET http://localhost:8880/hello
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T092717.200.txt
 
 ###
 
