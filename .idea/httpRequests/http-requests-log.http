@@ -1,3 +1,84 @@
+GET http://localhost:8880/ebook/list?name=Spring
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T103939.200.json
+
+###
+
+GET http://localhost:8880/ebook/list?name=Spring
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T103059.200.json
+
+###
+
+GET http://localhost:8880/ebook/list?name=Spring
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T102602.200.json
+
+###
+
+GET http://localhost:8880/ebook/list?name=Spring
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T102323.200.json
+
+###
+
+GET http://localhost:8880/ebook/list?name=Spring
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T102210.200.json
+
+###
+
+GET http://localhost:8880/demo/list?name=Spring
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T100455.200.json
+
+###
+
+GET http://localhost:8880/demo/list?name=Java
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T100438.200.json
+
+###
+
+GET http://localhost:8880/demo/list?name=Java
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-14T100415.200.json
+
+###
+
+GET http://localhost:8880/ebook/list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-12T094928.200.json
+
+###
+
 GET http://localhost:8880/demo/list
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
@@ -396,99 +477,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-08-08T093322.500.json
-
-###
-
-GET http://localhost:8880/test/list
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T093314.500.json
-
-###
-
-POST http://localhost:8880/hello/post
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 9
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-name=TEST
-
-<> 2023-08-08T093314-1.200.txt
-
-###
-
-GET http://localhost:8880/hello
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T093314.200.txt
-
-###
-
-GET http://localhost:8880/test/list
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T092908.500.json
-
-###
-
-POST http://localhost:8880/hello/post
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 9
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-name=TEST
-
-<> 2023-08-08T092908.200.txt
-
-###
-
-GET http://localhost:8880/hello
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T092907.200.txt
-
-###
-
-GET http://localhost:8880/test/list
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T092722.500.json
-
-###
-
-GET http://localhost:8880/test/list
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-08-08T092717.500.json
-
-###
-
-POST http://localhost:8880/hello/post
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 9
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-name=TEST
-
-<> 2023-08-08T092717-1.200.txt
 
 ###
 
