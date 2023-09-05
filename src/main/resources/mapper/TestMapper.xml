@@ -5,4 +5,4 @@
     <select id="list" resultType="com.example.wiki.domain.Test">
         select  `id`,`name`,`password` form `test`
     </select>
-</mapper>
+        </mapper>
